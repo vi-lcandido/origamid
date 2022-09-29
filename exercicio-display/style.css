@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+
+}
+
+span{
+color: #febe01;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{ 
+    margin: 0px; /*por padrão o h2 tem margem pra cima e pra baixo, zerá-la para não alterar na caixa*/
+}
+
+p{
+    color: #b2b2b2;
+}
+
+a{
+    color: #332200;
+    background-color: #febe01;
+    text-decoration: none;
+    border-radius: 4px;
+    padding:10px ;
+    display: inline-block; /*inline block pro botão não ficar pra fora da caixa preta*/
+}
+
+.objeto {
+    background: #111;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 4px;
+    color: #fff;
+}
+
