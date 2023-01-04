@@ -1,4 +1,7 @@
+div{
+    width: 200px;
+}
 
-#introducao {
-    color: gold;
+img {
+    max-width: 100%;
 }
