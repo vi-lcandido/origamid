@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício</title>
+  </head>
+  <body>
+    <style>
+      label {
+        display: block;
+        margin: 20px 0;
+      }
+      input {
+        border-radius: 3px;
+      }
+      #btnCep:hover,
+      button:hover {
+        background-color: rgb(71, 71, 235);
+        cursor: pointer;
+      }
+      button {
+        cursor: pointer;
+      }
+    </style>
+    <form id="serach-cep">
+      <label for="cep">CEP</label>
+      <input type="text" name="cep" id="cep" placeholder="Digite cep" />
+      <input type="button" value="Bucar Cep" id="btnCep" />
+    </form>
+    <div class="resultCep"></div>
+    <div>
+      <h2>Preço Bitcoin</h2>
+      <p class="btcBuy"></p>
+    </div>
+    <div>
+      <h2>Piadas de Chuck Norris</h2>
+      <p class="random-jokes"></p>
+      <button>Próxima piada</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
