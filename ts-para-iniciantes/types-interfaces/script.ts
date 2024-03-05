@@ -31,3 +31,28 @@ function escolherFruta(frutas: Frutas) {
 }
 
 escolherFruta("siriguela");
+
+//============== INTERFACE ===============
+interface Produtoprops {
+  nome: string;
+  preco: number;
+  teclado: boolean;
+}
+
+function preencherDadosInterface(dados: Produtoprops) {
+  document.body.innerHTML = `
+  <div>
+  <h2>${dados.nome}</h2>
+  <p>${dados.preco}</p>
+  <p>Inclui teclado? ${dados.teclado ? "Sim" : "Não"}</p>
+  </div>
+  `;
+}
+
+const tecnologia: Produtoprops = {
+  nome: "Laptop",
+  preco: 1800,
+  teclado: false,
+};
+
+preencherDadosInterface(tecnologia);
