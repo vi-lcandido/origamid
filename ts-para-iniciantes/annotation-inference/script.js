@@ -17,4 +17,4 @@ function totalMudou() {
         calcularGanho(Number(input.value));
     }
 }
-input?.addEventListener("keyup", totalMudou);
+input === null || input === void 0 ? void 0 : input.addEventListener("keyup", totalMudou);
